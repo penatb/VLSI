@@ -1,0 +1,9 @@
+A 5 u Ic_cell_template 5c81748f1e33.03.7f.00.00.01.00.01.a6 1 4 5 0
+V v 1 2 5c817a0f815e.03.7f.00.00.01.00.01.a6
+F f 1 "inverter.iccel_1"
+F o 0 
+O 1
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R cmduv 2 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csdni 3 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+R csduv 4 "$GENERIC13/process/vias/POLY_M1" 17 Ic_cell_template 4a56182cba3a.03.93.22.28.e1.00.20.59 4a561fdfe19f.03.93.22.28.e1.00.29.6f

@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Mon Feb 25 19:11:23 EST 2019
+//     by Calibre Interactive - DRC (v2012.2_36.25)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "nor.calibre.db"
+LAYOUT PRIMARY "nor"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "nor.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "nor.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/home/local/RAMS/penatb/GDK/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/DRC"
+

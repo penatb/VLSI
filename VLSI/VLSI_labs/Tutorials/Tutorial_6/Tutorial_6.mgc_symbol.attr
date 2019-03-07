@@ -1,0 +1,16 @@
+A 5 u mgc_symbol 5c80562745e4.03.7f.00.00.01.00.0e.db 3 2 1 0
+V v 1 2 5c80562745e4.03.7f.00.00.01.01.0e.db
+F f 1 "Tutorial_6.smbl_1"
+F o 0 
+V v 2 2 5c80564178dd.03.7f.00.00.01.00.0e.db
+F f 2 "Tutorial_6.smbl_2"
+F o 0 
+V v 3 2 5c805642a941.03.7f.00.00.01.00.0e.db
+F f 3 "Tutorial_6.smbl_3"
+F o 0 
+O 3
+R csduv 0 "$LAB_1/Tutorials/Tutorial_6/part" 2 Eddm_part 5c80563d676b.03.7f.00.00.01.00.0e.db 5c80503b865b.03.7f.00.00.01.00.0e.db
+O 2
+R csduv 0 "$LAB_1/Tutorials/Tutorial_6/part" 2 Eddm_part 5c80563d676b.03.7f.00.00.01.00.0e.db 5c80503b865b.03.7f.00.00.01.00.0e.db
+O 1
+R csduv 0 "$LAB_1/Tutorials/Tutorial_6/part" 2 Eddm_part 5c80563d676b.03.7f.00.00.01.00.0e.db 5c80503b865b.03.7f.00.00.01.00.0e.db

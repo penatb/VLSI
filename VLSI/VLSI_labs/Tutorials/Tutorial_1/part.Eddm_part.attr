@@ -1,0 +1,6 @@
+A 5 u Eddm_part 5c546430376a.03.7f.00.00.01.00.10.35 1 2 1 0
+V v 1 1 5c546430376a.03.7f.00.00.01.01.10.35
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LAB_1/Tutorials/Tutorial_1/Inverter" 1 mgc_schematic 5c5462a061c1.03.7f.00.00.01.01.10.35 5c5462a061c1.03.7f.00.00.01.00.10.35

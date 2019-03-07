@@ -1,0 +1,21 @@
+*pexRulesFile: /home/local/RAMS/penatb/GDK/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/PEX
+*pexRunDir: /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/lab_3/nor.cal
+*pexLayoutPaths: nor.calibre.db
+*pexLayoutPrimary: nor
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: nor.src.net
+*pexSourcePrimary: nor
+*pexEnvVars: {PEX_FMT_SOURCE_BASED_FLOW {} Unset}
+*pexReportFile: nor.lvs.report
+*pexPexNetlistFile: nor.pex.netlist
+*pexPexNetlistNameSource: LAYOUTNAMES
+*pexPexReportFile: nor.pex.report
+*pexMaskDBFile: nor.maskdb
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: %L
+*cmnFDILayoutView: %V
+*cmnFDIDEFLayoutPath: nor.def

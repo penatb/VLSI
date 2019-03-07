@@ -1,0 +1,9 @@
+and_2 1000
+ERC PATHCHK GROUND && ! POWER
+0 0 0 Mar  6 20:21:30 2019                                      
+ERC PATHCHK POWER && ! GROUND
+0 0 0 Mar  6 20:21:30 2019                                      
+ERC PATHCHK ! POWER && ! GROUND
+0 0 0 Mar  6 20:21:30 2019                                      
+ERC PATHCHK ! LABELED
+0 0 0 Mar  6 20:21:30 2019                                      

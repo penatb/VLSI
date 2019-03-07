@@ -1,0 +1,21 @@
+## ADMS GUI CONTEXT FILE, FORMAT VERSION 1.0 ##
+
+proc reuseproc {} {
+global vsimPriv design structure 
+global PrefReuse _prefReuse 
+if {[string compare [design_top] ":\nor\"] != 0} {
+gui_reuse_aborted 1 :\nor\
+return
+}
+tcl::HistClear 
+tcl::HistAdd {vasim -cmd /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/lab_3/nor.cal/nor.cir -lib /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/lab_3/work -ms -multisource_delay max}
+tcl::HistAdd {view *}
+tcl::HistAdd {do lab.do}
+## Last actions : ## 
+
+set _prefReuse(ChoiseDone) 1 
+
+}
+catch {reuseproc}
+
+ 

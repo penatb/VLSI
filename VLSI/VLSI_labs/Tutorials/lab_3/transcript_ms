@@ -1,0 +1,11 @@
+# cosim -cosim -l transcript_ms -lib /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/lab_3/work -msgmode tran -multisource_delay max -pli {/opt/mentor/ams_12_1/libs/MS/OS/$AMS_VCO/libVLA2D$AMS_SLIB_EXT} -suppress 3122 -warning 3584,10000 ADMS:spice:\\nor\\ 
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //

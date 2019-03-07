@@ -1,0 +1,28 @@
+A 5 u Ic_cell_template 5c67015dc4eb.03.7f.00.00.01.00.31.6d 4 4 4 0
+V v 1 2 5c5da5ef7b53.03.7f.00.00.01.00.1d.dc
+F f 1 "Inverter.iccel_1"
+F o 0 ""
+V v 2 2 5c66ee9f6a46.03.7f.00.00.01.00.0b.76
+F f 2 "Inverter.iccel_2"
+F o 0 ""
+V v 3 2 5c66eece1289.03.7f.00.00.01.00.0b.76
+F f 3 "Inverter.iccel_3"
+F o 0 ""
+V v 4 2 5c67011cba5d.03.7f.00.00.01.00.31.a3
+F f 4 "Inverter.iccel_4"
+F o 0 ""
+O 4
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+R csduv 3 "$GENERIC13/process/vias/POLY_M1" 17 Ic_cell_template 4a56182cba3a.03.93.22.28.e1.00.20.59 4a561fdfe19f.03.93.22.28.e1.00.29.6f
+O 3
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+R csduv 3 "$GENERIC13/process/vias/POLY_M1" 17 Ic_cell_template 4a56182cba3a.03.93.22.28.e1.00.20.59 4a561fdfe19f.03.93.22.28.e1.00.29.6f
+O 2
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+R csduv 3 "$GENERIC13/process/vias/POLY_M1" 17 Ic_cell_template 4a56182cba3a.03.93.22.28.e1.00.20.59 4a561fdfe19f.03.93.22.28.e1.00.29.6f
+O 1
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file

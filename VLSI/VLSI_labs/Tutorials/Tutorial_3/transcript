@@ -1,0 +1,97 @@
+vasim -cmd /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_3/Inverter.cal/Inverter.cir -lib /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_3/work -ms -multisource_delay max
+# ** Note: (vasim - 3800) Running Questa ADMS 12.1 patch1 Fri Sep  7 07:23:32 GMT 2012
+# +   on egr-vlsi-14 Linux x86_64(3.10.0-514.26.2.el7.x86_64) #1 SMP Tue Jul 4 15:04:05 UTC 2017
+# ELDO 12.1 patch1 (64 bits) Thu Sep  6 14:32:26 GMT 2012
+# EZwave 12.1 patch1 Wed Jun 20 13:28:31 GMT 2012
+# Copyright 1988 Mentor Graphics Corporation
+# All Rights Reserved
+# THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY
+# INFORMATION WHICH ARE THE PROPERTY OF MENTOR
+# GRAPHICS CORPORATION OR ITS LICENSORS AND IS
+# SUBJECT TO LICENSE TERMS.
+#  ---------------
+# | Load starting |
+#  ---------------
+# Loading "/opt/mentor/ams_12_1/libs/std.standard"
+# ModelSim for Questa-64 Version 10.1c 2012.07
+# Reading /opt/mentor/ams_12_1/questasim/v10.1c/tcl/vsim/pref.tcl 
+# Loading /opt/mentor/ams_12_1/libs/MS/OS/aol/libVLA2D_64.so
+# Loading "/opt/mentor/ams_12_1/libs/ieee.math_real"
+# Loading "/opt/mentor/ams_12_1/libs/DISCIPLINES.physical_constants"
+# Loading "/opt/mentor/ams_12_1/libs/DISCIPLINES.electromagnetic_system"
+# Load done
+view *
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# .main_pane.assertions.interior.cs.body .main_pane.canalysis.interior.cs.body.notebook.cs.page0.cs.stmt .main_pane.contributor.interior.cs.body .main_pane.covergroups.interior.cs.body.tree .main_pane.dataflow.interior.cs.body .main_pane.details.interior.cs.body.t.lwchildsite.clipper.text .main_pane.fcovers.interior.cs.body.tree .main_pane.files.interior.cs.body .main_pane.fsmlist.interior.cs.body .main_pane.instance.interior.cs.body .main_pane.library.interior.cs.body .main_pane.list.interior.cs.body .main_pane.locals.interior.cs.body .main_pane.msgviewer.interior.cs.body.tree .main_pane.objects.interior.cs.body .main_pane.process.interior.cs.body .main_pane.rundata.interior.cs.body.editor .main_pane.source.interior.cs.body.editor .main_pane.structure.interior.cs.body .main_pane.testanalysis.interior.cs.body.tree .main_pane.transcript.interior.cs.body.t .main_pane.wave.interior.cs.body.adms
+do tut3.do
+#  ----------------------------
+# | Analog Data pre-processing |
+#  ----------------------------
+# ** Warning: (eldo - 1615)  In file "./Inverter.cal/Inverter.cir" line 3:
+# +   COMMAND ".TRAN": TPRINT can not be <= 0.0.
+# +   It is set to TSTOP/20.0 = 5.000e-11 s.
+# ** Warning: (eldo - 400)  In file "./Inverter.cal/Inverter.cir" line 3:
+# +   .TRAN: TSTART > TSTOP: TSTART set to 0
+# ** Warning: (eldo - 107)   NODE "VSS": Less than two connections.
+# ** Warning: (eldo - 107)   NODE "IN": Less than two connections.
+# Analog data pre-processing done
+# -----------| Summary on Analog Data |-----------
+# Analog kernel and ELDO devices memory space allocated (MB):    462
+# 49 devices
+# 33 nodes
+# 2 input signals
+# ** Note: Extra devices and nodes might be created during simulation (access resistors, internal nodes...).
+# ** Note: Extra Memory might be allocated during simulation.
+# ----------- Summary done -----------
+# ** Warning: (eldo - 117)   NODE "VSS": Not connected to any power supply.
+# ** Warning: (eldo - 108)   NODE "N_IN_M0_G": This node is a floating gate.
+# +   List of MOS devices connected to that node follows:
+# +   --> M0
+# ** Warning: (eldo - 108)   NODE "N_IN_M1_G": This node is a floating gate.
+# +   List of MOS devices connected to that node follows:
+# +   --> M1
+# ** Warning: (eldo - 118)   NODE "X_PM_INVERTER_IN.14": No DC path to ground.
+# ** Warning: (eldo - 118)   NODE "X_PM_INVERTER_IN.11": No DC path to ground.
+# ** Warning: (eldo - 118)   NODE "X_PM_INVERTER_IN.10": No DC path to ground.
+#  -----------------------------
+# | Quiescent Point computation |
+#  -----------------------------
+# Analog DC computation starting
+# Analog DC computation done
+# Digital computation at time 0 ps starting
+# Digital computation at time 0 ps done
+# Quiescent point done
+#  -----------------------------
+# | Transient analysis starting |
+#  -----------------------------
+# Eldo analog kernel simulation effective options:
+#   VNTOL  = 1.000000e-06
+#   RELTOL = 7.500000e-04
+#   HMIN   = 1.000000e-03 ns
+#   HMAX will be set later during simulation and may vary
+#   EPS    = 1.000000e-03
+# Starting analog time is 0.000000 ns
+# Simulation time for "run -all" is 1.000000 ns
+# Transient analysis done
+#    Global cpu Time 0h 0mn 0s 140ms 
+#    Global Elapsed Time 0h 2mn 33s 
+# -----------| Simulation Information |-----------
+# Analog kernel and ELDO devices memory size allocated (MB):  463.7
+# 53 devices
+# 37 nodes
+# 240 MOS or BIP model calls
+# 326 steps computed
+# ----------- Simulation Information done -----------
+# --- Simulation stopped at time 300 ns
+# Newton iteration            :  1.441718
+# Total of transactions       :  1
+# Total of events             :  1

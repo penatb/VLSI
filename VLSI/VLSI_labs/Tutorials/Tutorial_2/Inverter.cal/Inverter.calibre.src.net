@@ -1,0 +1,16 @@
+* LVS netlist generated with ICnet by 'penatb' on Fri Feb 15 2019 at 13:09:40
+
+*
+* Globals.
+*
+.global ground VDD
+
+*
+* Component pathname : $LAB_1/Tutorials/Tutorial_1
+*
+.subckt Tutorial_1  OUT IN
+
+        M2 OUT IN VDD VDD pmos l=0.13u w=2u m=1
+        M1 OUT IN ground ground nmos l=0.13u w=0.6u m=1
+.ends Tutorial_1
+

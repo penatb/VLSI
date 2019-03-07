@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Fri Feb 15 13:17:47 2019 " "v2012.2_36.25" "-xrc -pdb -rcc -turbo 1 /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_3/Inverter.cal/_PEX_"
+"Fri Feb 15 13:17:47 2019 " "v2012.2_36.25" "-xrc -fmt -all /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_3/Inverter.cal/_PEX_"

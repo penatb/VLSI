@@ -1,0 +1,46 @@
+A 5 u Eddm_design_viewpoint 5c80503b990e.03.7f.00.00.01.00.0e.db 3 2 26 0
+V v 1 4 5c80503b990e.03.7f.00.00.01.01.0e.db
+F f 1 "default.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 2 4 5c80503beece.03.7f.00.00.01.00.0e.db
+F f 2 "default.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 3 4 5c8054e70c17.03.7f.00.00.01.00.0e.db
+F f 3 "default.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_6/part" 1 Eddm_part 5c80503b865b.03.7f.00.00.01.01.0e.db 5c80503b865b.03.7f.00.00.01.00.0e.db
+R cspuv 1 "$LAB_1/Tutorials/Tutorial_6/and" 2 mgc_schematic 5c80503b8abe.03.7f.00.00.01.00.0e.db 5c804db1ddd6.03.7f.00.00.01.00.0e.db
+R cspuv 2 "$LAB_1/Tutorials/Tutorial_6/default" 1 Eddm_ba_mgr 5c80503b9a4a.03.7f.00.00.01.01.0e.db 5c80503b9a4a.03.7f.00.00.01.00.0e.db
+R cspuv 3 "$LAB_1/Tutorials/Tutorial_5/part" 2 Eddm_part 5c7335be604d.03.7f.00.00.01.00.13.00 5c732d2a039c.03.7f.00.00.01.00.0d.96
+R cspuv 4 "$LAB_1/Tutorials/Tutorial_5/nor" 2 mgc_schematic 5c732d2a0580.03.7f.00.00.01.00.0d.96 5c7326f3a804.03.7f.00.00.01.00.0d.96
+R cspuv 5 "$LAB_1/Tutorials/Tutorial_5/Tutorial_5" 2 mgc_symbol 5c7335c0aaea.03.7f.00.00.01.00.13.00 5c7330d0227e.03.7f.00.00.01.00.13.00
+R cspuv 10 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 11 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+R cspuv 12 "$GENERIC13/symbols/pmos/pmos" 27 mgc_symbol 4f3c5315ac6d.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.02.11.a3
+R cspuv 13 "$GENERIC13/symbols/nmos/nmos" 41 mgc_symbol 4f3c52ec7400.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0b.11.a3
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_6/part" 1 Eddm_part 5c80503b865b.03.7f.00.00.01.01.0e.db 5c80503b865b.03.7f.00.00.01.00.0e.db
+R cspuv 1 "$LAB_1/Tutorials/Tutorial_6/and" 2 mgc_schematic 5c80503b8abe.03.7f.00.00.01.00.0e.db 5c804db1ddd6.03.7f.00.00.01.00.0e.db
+R cspuv 2 "$LAB_1/Tutorials/Tutorial_6/default" 1 Eddm_ba_mgr 5c80503b9a4a.03.7f.00.00.01.01.0e.db 5c80503b9a4a.03.7f.00.00.01.00.0e.db
+R cspuv 3 "$LAB_1/Tutorials/Tutorial_5/part" 2 Eddm_part 5c7335be604d.03.7f.00.00.01.00.13.00 5c732d2a039c.03.7f.00.00.01.00.0d.96
+R cspuv 4 "$LAB_1/Tutorials/Tutorial_5/nor" 2 mgc_schematic 5c732d2a0580.03.7f.00.00.01.00.0d.96 5c7326f3a804.03.7f.00.00.01.00.0d.96
+R cspuv 5 "$LAB_1/Tutorials/Tutorial_5/Tutorial_5" 2 mgc_symbol 5c7335c0aaea.03.7f.00.00.01.00.13.00 5c7330d0227e.03.7f.00.00.01.00.13.00
+R cspuv 10 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 11 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+R cspuv 12 "$GENERIC13/symbols/pmos/pmos" 27 mgc_symbol 4f3c5315ac6d.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.02.11.a3
+R cspuv 13 "$GENERIC13/symbols/nmos/nmos" 41 mgc_symbol 4f3c52ec7400.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0b.11.a3
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_6/part" 1 Eddm_part 5c80503b865b.03.7f.00.00.01.01.0e.db 5c80503b865b.03.7f.00.00.01.00.0e.db
+R cspuv 1 "$LAB_1/Tutorials/Tutorial_6/and" 1 mgc_schematic 5c804db1ddd6.03.7f.00.00.01.01.0e.db 5c804db1ddd6.03.7f.00.00.01.00.0e.db
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$LAB_1/Tutorials/Tutorial_6/default" 1 Eddm_ba_mgr 5c80503b9a4a.03.7f.00.00.01.01.0e.db 5c80503b9a4a.03.7f.00.00.01.00.0e.db

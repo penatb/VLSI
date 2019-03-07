@@ -1,0 +1,92 @@
+vasim -cmd /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/lab_3/nor.cal/nor.cir -lib /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/lab_3/work -ms -multisource_delay max
+# ** Note: (vasim - 3800) Running Questa ADMS 12.1 patch1 Fri Sep  7 07:23:32 GMT 2012
+# +   on egr-vlsi-14 Linux x86_64(3.10.0-514.26.2.el7.x86_64) #1 SMP Tue Jul 4 15:04:05 UTC 2017
+# ELDO 12.1 patch1 (64 bits) Thu Sep  6 14:32:26 GMT 2012
+# EZwave 12.1 patch1 Wed Jun 20 13:28:31 GMT 2012
+# Copyright 1988 Mentor Graphics Corporation
+# All Rights Reserved
+# THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY
+# INFORMATION WHICH ARE THE PROPERTY OF MENTOR
+# GRAPHICS CORPORATION OR ITS LICENSORS AND IS
+# SUBJECT TO LICENSE TERMS.
+#  ---------------
+# | Load starting |
+#  ---------------
+# Loading "/opt/mentor/ams_12_1/libs/std.standard"
+# ModelSim for Questa-64 Version 10.1c 2012.07
+# Reading /opt/mentor/ams_12_1/questasim/v10.1c/tcl/vsim/pref.tcl 
+# Loading /opt/mentor/ams_12_1/libs/MS/OS/aol/libVLA2D_64.so
+# Loading "/opt/mentor/ams_12_1/libs/ieee.math_real"
+# Loading "/opt/mentor/ams_12_1/libs/DISCIPLINES.physical_constants"
+# Loading "/opt/mentor/ams_12_1/libs/DISCIPLINES.electromagnetic_system"
+# Load done
+view *
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# .main_pane.assertions.interior.cs.body .main_pane.canalysis.interior.cs.body.notebook.cs.page0.cs.stmt .main_pane.contributor.interior.cs.body .main_pane.covergroups.interior.cs.body.tree .main_pane.dataflow.interior.cs.body .main_pane.details.interior.cs.body.t.lwchildsite.clipper.text .main_pane.fcovers.interior.cs.body.tree .main_pane.files.interior.cs.body .main_pane.fsmlist.interior.cs.body .main_pane.instance.interior.cs.body .main_pane.library.interior.cs.body .main_pane.list.interior.cs.body .main_pane.locals.interior.cs.body .main_pane.msgviewer.interior.cs.body.tree .main_pane.objects.interior.cs.body .main_pane.process.interior.cs.body .main_pane.rundata.interior.cs.body.editor .main_pane.source.interior.cs.body.editor .main_pane.structure.interior.cs.body .main_pane.testanalysis.interior.cs.body.tree .main_pane.transcript.interior.cs.body.t .main_pane.wave.interior.cs.body.adms
+do lab.do
+# ** Error: No object matching ':A:IN'
+# Error in macro ./lab.do line 2
+# No object matching ':A:IN'
+#     while executing
+# "add wave \
+# 	:A:IN"
+do lab.do
+# ** Error: No object matching ':A:A'
+# Error in macro ./lab.do line 2
+# No object matching ':A:A'
+#     while executing
+# "add wave \
+# 	:A:A"
+do lab.do
+# ** Error: invalid command name "include"
+# Error in macro ./lab.do line 2
+# invalid command name "include"
+#     while executing
+# "include nor.sp"
+do lab.do
+# ** Error: invalid command name ".include"
+# Error in macro ./lab.do line 2
+# invalid command name ".include"
+#     while executing
+# ".include nor.sp"
+do lab.do
+# ** Error: No object matching ':nor:a'
+# Error in macro ./lab.do line 2
+# No object matching ':nor:a'
+#     while executing
+# "add wave \
+# 	:nor:a"
+do lab.do
+# ** Error: No object matching ':nor:a'
+# Error in macro ./lab.do line 2
+# No object matching ':nor:a'
+#     while executing
+# "add wave \
+# 	:nor:a "
+do lab.do
+# ** Error: No object matching ':
+# or:a'
+# Error in macro ./lab.do line 2
+# No object matching ':
+# or:a'
+#     while executing
+# "add wave \
+# 	:\nor\:a "
+do lab.do
+# ** Error: No object matching ':nor:A'
+# Error in macro ./lab.do line 2
+# No object matching ':nor:A'
+#     while executing
+# "add wave \
+# 	:nor:A "
+#    Global cpu Time 0h 0mn 0s 100ms 
+#    Global Elapsed Time 0h 11mn 34s 

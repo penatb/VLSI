@@ -1,0 +1,18 @@
+A 5 u Eddm_part 5c74a979ec25.03.7f.00.00.01.05.0a.73 3 2 2 0
+V v 1 1 5c732d2a039c.03.7f.00.00.01.01.0d.96
+F f 1 "part.part_1"
+V v 2 1 5c7335be604d.03.7f.00.00.01.00.13.00
+F f 2 "part.part_2"
+V v 3 1 5c74a97b63ec.03.7f.00.00.01.00.28.12
+F f 3 "part.part_3"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LAB_1/Tutorials/lab_3/nor" 1 mgc_schematic 5c7326f3a804.03.7f.00.00.01.01.0d.96 5c74a979ec25.03.7f.00.00.01.00.0a.73
+R csduv 1 "$LAB_1/Tutorials/lab_3/lab_3" 1 mgc_symbol 5c7330d0227e.03.7f.00.00.01.01.13.00 5c74a979ec25.03.7f.00.00.01.02.0a.73
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LAB_1/Tutorials/lab_3/nor" 1 mgc_schematic 5c7326f3a804.03.7f.00.00.01.01.0d.96 5c74a979ec25.03.7f.00.00.01.00.0a.73
+R csduv 1 "$LAB_1/Tutorials/lab_3/lab_3" 1 mgc_symbol 5c7330d0227e.03.7f.00.00.01.01.13.00 5c74a979ec25.03.7f.00.00.01.02.0a.73
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LAB_1/Tutorials/lab_3/nor" 1 mgc_schematic 5c7326f3a804.03.7f.00.00.01.01.0d.96 5c74a979ec25.03.7f.00.00.01.00.0a.73

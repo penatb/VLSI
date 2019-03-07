@@ -1,0 +1,30 @@
+* ELDO netlist generated with ICnet by 'penatb' on Wed Mar  6 2019 at 18:16:56
+
+*
+* Globals.
+*
+.global GROUND VDD
+
+*
+* Component pathname : $LAB_1/Tutorials/Tutorial_5
+*
+.subckt TUTORIAL_5  Y A B
+
+        M4 Y A GROUND GROUND nmos w=0.6u l=0.13u m=1 as=0.204p ad=0.204p
++  ps=1.28u pd=1.28u
+        M3 Y B GROUND GROUND nmos w=0.6u l=0.13u m=1 as=0.204p ad=0.204p
++  ps=1.28u pd=1.28u
+        M2 Y A N$5 VDD pmos w=2u l=0.13u m=1 as=0.68p ad=0.68p ps=2.68u
++  pd=2.68u
+        M1 N$5 B VDD VDD pmos w=2u l=0.13u m=1 as=0.68p ad=0.68p ps=2.68u
++  pd=2.68u
+.ends TUTORIAL_5
+
+*
+* MAIN CELL: Component pathname : $LAB_1/Tutorials/Tutorial_6
+*
+        X_TUTORIAL_53 OUT N$3 N$10 TUTORIAL_5
+        X_TUTORIAL_52 N$10 IN2 IN2 TUTORIAL_5
+        X_TUTORIAL_51 N$3 IN1 IN1 TUTORIAL_5
+*
+.end

@@ -1,0 +1,7 @@
+*pexRulesFile: /home/local/RAMS/penatb/GDK/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/PEX
+*pexRunDir: /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_3/Inverter.cal
+*pexLayoutPaths: Inverter.calibre.gds
+*pexLayoutPrimary: Inverter
+*pexLayoutGetFromViewer: 1
+*pexResultsFile: Inverter.pex.results
+*pexSummaryFile: Inverter.pex.summary

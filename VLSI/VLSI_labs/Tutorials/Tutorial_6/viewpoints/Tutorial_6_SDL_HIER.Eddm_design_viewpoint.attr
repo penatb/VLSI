@@ -1,0 +1,15 @@
+A 5 u Eddm_design_viewpoint 5c805764e8f2.03.7f.00.00.01.00.1f.0d 1 2 6 0
+V v 1 4 5c805764e8f2.03.7f.00.00.01.01.1f.0d
+F f 1 "Tutorial_6_SDL_HIER.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_6/part" 2 Eddm_part 5c80563d676b.03.7f.00.00.01.00.0e.db 5c80503b865b.03.7f.00.00.01.00.0e.db
+R cspuv 1 "$LAB_1/Tutorials/Tutorial_6/and" 6 mgc_schematic 5c8056620de8.03.7f.00.00.01.00.0e.db 5c804db1ddd6.03.7f.00.00.01.00.0e.db
+R cspuv 2 "$LAB_1/Tutorials/Tutorial_6/Tutorial_6" 1 mgc_symbol 5c80562745e4.03.7f.00.00.01.01.0e.db 5c80562745e4.03.7f.00.00.01.00.0e.db
+R cspuv 3 "$LAB_1/Tutorials/Tutorial_5/part" 2 Eddm_part 5c7335be604d.03.7f.00.00.01.00.13.00 5c732d2a039c.03.7f.00.00.01.00.0d.96
+R cspuv 4 "$LAB_1/Tutorials/Tutorial_5/nor" 1 mgc_schematic 5c7326f3a804.03.7f.00.00.01.01.0d.96 5c7326f3a804.03.7f.00.00.01.00.0d.96
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 5 "$LAB_1/Tutorials/Tutorial_5/Tutorial_5" 1 mgc_symbol 5c7330d0227e.03.7f.00.00.01.01.13.00 5c7330d0227e.03.7f.00.00.01.00.13.00

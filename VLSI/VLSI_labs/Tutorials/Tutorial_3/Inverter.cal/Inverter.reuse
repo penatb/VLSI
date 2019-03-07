@@ -1,0 +1,21 @@
+## ADMS GUI CONTEXT FILE, FORMAT VERSION 1.0 ##
+
+proc reuseproc {} {
+global vsimPriv design structure 
+global PrefReuse _prefReuse 
+if {[string compare [design_top] ":inverter"] != 0} {
+gui_reuse_aborted 1 :inverter
+return
+}
+tcl::HistClear 
+tcl::HistAdd {vasim -cmd /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_3/Inverter.cal/Inverter.cir -lib /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_3/work -ms -multisource_delay max}
+tcl::HistAdd {view *}
+tcl::HistAdd {do tut3.do}
+## Last actions : ## 
+
+set _prefReuse(ChoiseDone) 1 
+
+}
+catch {reuseproc}
+
+ 

@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 5c80503b9a4a.03.7f.00.00.01.00.0e.db 1 2 1 0
+V v 1 1 5c80503b9a4a.03.7f.00.00.01.01.0e.db
+F f 1 "default.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_6/default" 1 Eddm_design_viewpoint 5c80503b990e.03.7f.00.00.01.01.0e.db 5c80503b990e.03.7f.00.00.01.00.0e.db

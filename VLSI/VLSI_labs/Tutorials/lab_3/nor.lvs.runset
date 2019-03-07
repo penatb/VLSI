@@ -1,0 +1,11 @@
+*lvsRulesFile: /home/local/RAMS/penatb/GDK/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/LVS
+*lvsRunDir: /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/lab_3/nor.cal
+*lvsLayoutPaths: nor.calibre.gds
+*lvsLayoutPrimary: nor
+*lvsLayoutGetFromViewer: 1
+*lvsResultsFile: nor.lvs.results
+*lvsSummaryFile: nor.lvs.summary
+*cmnApplyTemplates: 0
+*lvsSourceGetFromViewer: 1
+*lvsSourcePath: nor.calibre.src.net
+*lvsSourcePrimary: lab_3

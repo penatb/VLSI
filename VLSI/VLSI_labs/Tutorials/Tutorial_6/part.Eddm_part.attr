@@ -1,0 +1,14 @@
+A 5 u Eddm_part 5c80503b865b.03.7f.00.00.01.00.0e.db 2 2 2 0
+V v 1 1 5c80503b865b.03.7f.00.00.01.01.0e.db
+F f 1 "part.part_1"
+V v 2 1 5c80563d676b.03.7f.00.00.01.00.0e.db
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LAB_1/Tutorials/Tutorial_6/and" 1 mgc_schematic 5c804db1ddd6.03.7f.00.00.01.01.0e.db 5c804db1ddd6.03.7f.00.00.01.00.0e.db
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$LAB_1/Tutorials/Tutorial_6/Tutorial_6" 1 mgc_symbol 5c80562745e4.03.7f.00.00.01.01.0e.db 5c80562745e4.03.7f.00.00.01.00.0e.db
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LAB_1/Tutorials/Tutorial_6/and" 1 mgc_schematic 5c804db1ddd6.03.7f.00.00.01.01.0e.db 5c804db1ddd6.03.7f.00.00.01.00.0e.db
+P "eddm__refer_state" "eddm__refer_floating"

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5c804db1ddd6.03.7f.00.00.01.00.0e.db 6 2 1 0
+V v 4 1 5c8056612f62.03.7f.00.00.01.00.0e.db
+F o 0 ""
+V v 5 1 5c805661d328.03.7f.00.00.01.00.0e.db
+F o 0 ""
+V v 6 1 5c8056620de8.03.7f.00.00.01.00.0e.db
+F o 0 ""
+O 6
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_6/and/sheet1" 5 mgc_sheet 5c8056620dcc.03.7f.00.00.01.00.0e.db 5c804db1dea6.03.7f.00.00.01.00.0e.db
+O 5
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_6/and/sheet1" 4 mgc_sheet 5c805661d30c.03.7f.00.00.01.00.0e.db 5c804db1dea6.03.7f.00.00.01.00.0e.db
+O 4
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_6/and/sheet1" 3 mgc_sheet 5c8056612f46.03.7f.00.00.01.00.0e.db 5c804db1dea6.03.7f.00.00.01.00.0e.db

@@ -1,0 +1,9 @@
+Inverter 1000
+ERC PATHCHK GROUND && ! POWER
+0 0 0 Feb 15 13:09:42 2019                                      
+ERC PATHCHK POWER && ! GROUND
+0 0 0 Feb 15 13:09:42 2019                                      
+ERC PATHCHK ! POWER && ! GROUND
+0 0 0 Feb 15 13:09:42 2019                                      
+ERC PATHCHK ! LABELED
+0 0 0 Feb 15 13:09:42 2019                                      

@@ -1,0 +1,11 @@
+*lvsRulesFile: /home/local/RAMS/penatb/GDK/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/LVS
+*lvsRunDir: /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_2/Inverter.cal
+*lvsLayoutPaths: Inverter.calibre.gds
+*lvsLayoutPrimary: Inverter
+*lvsLayoutGetFromViewer: 1
+*lvsResultsFile: Inverter.lvs.results
+*lvsSummaryFile: Inverter.lvs.summary
+*cmnApplyTemplates: 0
+*lvsSourceGetFromViewer: 1
+*lvsSourcePath: Inverter.calibre.src.net
+*lvsSourcePrimary: Tutorial_2

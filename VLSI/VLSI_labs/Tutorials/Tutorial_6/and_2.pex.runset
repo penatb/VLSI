@@ -1,0 +1,25 @@
+*pexRulesFile: /home/local/RAMS/penatb/GDK/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/PEX
+*pexRunDir: /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_6/and_2.cal
+*pexLayoutPaths: and_2.calibre.db
+*pexLayoutPrimary: and_2
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: and_2.src.net
+*pexSourcePrimary: and_2
+*pexPexNetlistType: R
+*pexEnvVars: {PEX_FMT_SOURCE_BASED_FLOW {} Unset}
+*pexReportFile: and_2.lvs.report
+*pexPexNetlistFile: and_2.pex.netlist
+*pexPexNetlistNameSource: LAYOUTNAMES
+*pexPexReportFile: and_2.pex.report
+*pexPexSeparator: 1
+*pexPexSeparatorValue: _
+*pexMaskDBFile: and_2.maskdb
+*cmnShowOptions: 1
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: %L
+*cmnFDILayoutView: %V
+*cmnFDIDEFLayoutPath: and_2.def

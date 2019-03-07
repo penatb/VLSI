@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5c5462a061c1.03.7f.00.00.01.00.10.35 13 2 1 0
+V v 11 1 5c66ea25100c.03.7f.00.00.01.00.26.05
+F o 0 ""
+V v 12 1 5c66ebb04ab6.03.7f.00.00.01.00.26.05
+F o 0 ""
+V v 13 1 5c66ebb13f3a.03.7f.00.00.01.00.26.05
+F o 0 ""
+O 13
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_1/Inverter/sheet1" 12 mgc_sheet 5c66ebb13f12.03.7f.00.00.01.00.26.05 5c5462a06293.03.7f.00.00.01.00.10.35
+O 12
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_1/Inverter/sheet1" 11 mgc_sheet 5c66ebb04a8a.03.7f.00.00.01.00.26.05 5c5462a06293.03.7f.00.00.01.00.10.35
+O 11
+R cspuv 0 "$LAB_1/Tutorials/Tutorial_1/Inverter/sheet1" 10 mgc_sheet 5c66ea250fe5.03.7f.00.00.01.00.26.05 5c5462a06293.03.7f.00.00.01.00.10.35

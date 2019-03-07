@@ -1,0 +1,19 @@
+A 5 u Eddm_ba_mgr 5c54645327d7.03.7f.00.00.01.00.10.35 5 2 9 0
+V v 3 1 5c546e89dd62.03.7f.00.00.01.00.10.35
+F f 3 "default.ba_3"
+V v 4 1 5c5ce2b3d64c.03.7f.00.00.01.00.31.87
+F f 4 "default.ba_4"
+V v 5 1 5c670032e7ee.03.7f.00.00.01.00.36.40
+F f 5 "default.ba_5"
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 7 "$LAB_1/Tutorials/Tutorial_1/default" 7 Eddm_design_viewpoint 5c67001d4508.03.7f.00.00.01.00.36.40 5c54645325b6.03.7f.00.00.01.00.10.35
+R cspuv 8 "$LAB_1/Tutorials/Tutorial_1/Inverter" 13 mgc_schematic 5c66ebb13f3a.03.7f.00.00.01.00.26.05 5c5462a061c1.03.7f.00.00.01.00.10.35
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 5 "$LAB_1/Tutorials/Tutorial_1/default" 5 Eddm_design_viewpoint 5c5cddb64253.03.7f.00.00.01.00.31.87 5c54645325b6.03.7f.00.00.01.00.10.35
+R cspuv 6 "$LAB_1/Tutorials/Tutorial_1/Inverter" 9 mgc_schematic 5c5cd52d8b92.03.7f.00.00.01.00.12.0a 5c5462a061c1.03.7f.00.00.01.00.10.35
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 3 "$LAB_1/Tutorials/Tutorial_1/default" 2 Eddm_design_viewpoint 5c54645381fd.03.7f.00.00.01.00.10.35 5c54645325b6.03.7f.00.00.01.00.10.35
+R cspuv 4 "$LAB_1/Tutorials/Tutorial_1/Inverter" 2 mgc_schematic 5c546430394e.03.7f.00.00.01.00.10.35 5c5462a061c1.03.7f.00.00.01.00.10.35

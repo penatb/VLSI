@@ -1,0 +1,7 @@
+*drcRulesFile: /home/local/RAMS/penatb/GDK/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/DRC
+*drcRunDir: /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_5/nor.cal
+*drcLayoutPaths: nor.calibre.gds
+*drcLayoutPrimary: nor
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: nor.drc.results
+*drcSummaryFile: nor.drc.summary

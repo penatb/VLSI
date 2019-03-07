@@ -1,0 +1,15 @@
+*lvsRulesFile: /home/local/RAMS/penatb/GDK/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/LVS
+*lvsRunDir: /home/local/RAMS/penatb/EGRE591/VLSI/VLSI_labs/Tutorials/Tutorial_6/and_2.cal
+*lvsLayoutPaths: and_2.calibre.gds
+*lvsLayoutPrimary: and_2
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: and_2.calibre.src.net
+*lvsSourcePrimary: Tutorial_6
+*lvsSourceGetFromViewer: 1
+*lvsPowerNames: VDD
+*lvsGroundNames: ground
+*cmnShowOptions: 1
+*cmnApplyTemplates: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
